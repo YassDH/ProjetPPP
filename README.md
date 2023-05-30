@@ -19,5 +19,5 @@ Even though it was trained on the **IMAGENET V2** DataSet and has 50 layers, aft
 To see the code and results [Click here](https://github.com/YassDH/ProjetPPP/blob/main/ResNet%2050%20with%20data%20augmentation.ipynb)
 ##  EfficientNetB1 with Data Augmentation :
 Setting the weights to **DEFAULT** is equivalent to setting them to **IMAGENET1K_V1**.
-Even though it was trained on the **IMAGENET V1** DataSet and 26 layers, after applying data augmentation, we had a pretty poor performance and got just **54%** of accruacy .
+Even though it was trained on the **IMAGENET V1** DataSet and 26 layers, after applying data augmentation, we had a pretty poor performance and got just **63%** of accruacy .
 To see the code and results [Click here](https://github.com/YassDH/ProjetPPP/blob/main/efficientnet_b1%20Version%20with%20data%20augmentation.ipynb)
