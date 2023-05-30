@@ -3,8 +3,8 @@
 This projet was made by [Yassine Dhaouadi](https://github.com/YassDH) , [Adam Fendri](https://github.com/adam-fendri)  and [Mohamed Aziz Klai](https://github.com/AzizKlai) , focuses on classifying car images according to their brands/models by relying on both Transfer Learning and the The Stanford Cars dataset which has 196 car classes in it . And to do so, we experimented with diffrent models and techniques that are explained down below :
 ##  ResNet 50 with IMAGENET1K_V2 weights :
 This is basically the version that gave us the best accuracy so we chose it as our **Final Version**.
-Thanks to it's 50 pretrained layers on the **IMAGENET V2** DataSet this version of the model gave us **83%** accruacy.
-To see the code and results [Click here](https://github.com/YassDH/ProjetPPP/blob/main/FinalVersion%20with%20ResNet%2050.ipynb)
+Thanks to it's 50 pretrained layers on the **IMAGENET V2** DataSet this version of the model gave us **84%** accruacy.
+To see the code and results [Click here](https://github.com/adam-fendri/ResNet50/blob/main/resnet50.ipynb)
 ##  ResNet 18 with DEFAULT weights :
 Setting the weights to **DEFAULT** is equivalent to setting them to **IMAGENET1K_V1**.
 Even though it was trained on the **IMAGENET V1** DataSet and has only 18 layers, the performance was not bad and gave us and accruacy of **78%** . This was our baseline . 
